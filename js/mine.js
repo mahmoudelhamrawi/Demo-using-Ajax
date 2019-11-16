@@ -68,6 +68,7 @@ for(var i=0;i<links.length;i++){
     }) 
 
 }
+
   sel.onchange=function(){ 
         country= sel.value;
         getdata() 
@@ -108,6 +109,14 @@ function getdata(){
 }
      req.send();
 }
+
+
+
+
+
+
+
+
 
  
 function dis(){
